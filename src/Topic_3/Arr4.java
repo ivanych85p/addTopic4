@@ -1,5 +1,7 @@
 package Topic_3;
 
+import java.util.regex.Matcher;
+
 public class Arr4 {
     public static void main(String[] args) {
         //Task 17, page 36.............................................................................
@@ -42,6 +44,16 @@ public class Arr4 {
         System.out.println("В тексте " + n + " знаков препинания");
         System.out.println();
 
+
+        //Task 19, page 43..............................................................................................
+
+        String st2 = " Тестовая строка  - строка  с различным  количеством пробелов ";
+        int numberOfWords1;
+        st2 = st2.trim();
+        String[] words = st2.split("[^а-яА-Я]+");
+        numberOfWords1 = words.length;
+        System.out.println("numberOfWords1 = " + numberOfWords1);
+        System.out.println();
 
 
         //Task 20, page 43..................................................................................
