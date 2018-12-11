@@ -1,0 +1,5 @@
+Welcome to the beginning of your journey to become certified
+on Java. We assume this is not the first Java programming book
+you have read. Although we do talk about the basics, we do so
+only because we want to make sure you have all the terminology and detail you will need for
+the OCA exam.
