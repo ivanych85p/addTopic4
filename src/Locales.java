@@ -7,6 +7,7 @@ public class Locales {
         Locale bel = new Locale("be","BY");
         Locale eng = new Locale("en","GB");
 
+        ResourceBundle bundleDefault = ResourceBundle.getBundle("messages");
         ResourceBundle bundleEn = ResourceBundle.getBundle("messages", eng);
         ResourceBundle bundleRus = ResourceBundle.getBundle("messages", rus);
         ResourceBundle bundleBel = ResourceBundle.getBundle("messages", bel);
@@ -16,7 +17,6 @@ public class Locales {
         System.out.println(bundleBel.getString("greetings"));
 
         Locale.setDefault(new Locale("en","GB"));
-        ResourceBundle bundleDefault = ResourceBundle.getBundle("messages");
         System.out.println(bundleDefault.getString("greetings"));
     }
 }
