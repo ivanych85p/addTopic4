@@ -18,7 +18,7 @@ public class Stax {
 
         XMLInputFactory factory = XMLInputFactory.newFactory();
         try {
-            XMLStreamReader reader = factory.createXMLStreamReader(new FileInputStream("D:\\Java\\src\\Note_2_topic_2\\dom_and_stax\\forparse.xml"));
+            XMLStreamReader reader = factory.createXMLStreamReader(new FileInputStream("D:\\Java\\src\\Note_2_topic_2\\topic_4\\forparsing.xml"));
             while (reader.hasNext()) {
                 int res = reader.next();
                 if (res == reader.START_ELEMENT) {

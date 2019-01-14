@@ -11,7 +11,7 @@ public class Dom {
         System.out.println("Note 2, task 10, page 36");
         System.out.println();
         try {
-            File inputFile = new File("D:\\Java\\src\\Note_2_topic_2\\dom_and_stax\\forparse.xml");
+            File inputFile = new File("D:\\Java\\src\\Note_2_topic_2\\topic_4\\forparsing.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(inputFile);
