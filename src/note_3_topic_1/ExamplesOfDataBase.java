@@ -12,7 +12,7 @@ public class ExamplesOfDataBase {
 
 //    Task 2...........................................................................................................
         System.out.println("task 2");
-        System.out.println("SELECT num, paydate, receiver, value FROM expenses, receivers WHERE receiver=receivers.num and value > 10000;");
+        System.out.println("SELECT e.num, e.paydate, r.receiver, e.value FROM expenses AS e, receivers AS r WHERE e.value > 10000;");
         System.out.println();
 
 //    Task 3...........................................................................................................
